@@ -7,7 +7,10 @@ authors = [
     { name = "Kavya", email = "kavya6715257@gmail.com" }
 ]
 requires-python = ">=3.9"
-dependencies = []
+dependencies = [
+    "langchain>=0.3.30",
+    "python-dotenv>=1.2.1",
+]
 
 [project.scripts]
 langchain-tutorial = "langchain_tutorial:main"
